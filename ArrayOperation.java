@@ -21,7 +21,7 @@ class ArrayOperation {
                 largest=numArray[i];
             if(numArray[i]<smallest)
                 smallest=numArray[i];
-            if(numArray[i]>secondLargest&&numArray[i]<largest)
+            if(numArray[i]>secondLargest||numArray[i]<largest)
                 secondLargest=numArray[i];    
         }
         System.out.println("Lergest: "+largest);
