@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+
+//question 6
 class ArrayOperation {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//question 4
 class ArmstrongCalculator {
     int length;
     boolean isArmstrong = false;
