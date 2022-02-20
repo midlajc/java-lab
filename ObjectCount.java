@@ -12,7 +12,6 @@ public class ObjectCount {
         ObjectCount obj3 = new ObjectCount();
         ObjectCount obj4 = new ObjectCount();
 
-        // display count
         System.out.println("Number of objects created : " + ObjectCount.count);
     }
 }
