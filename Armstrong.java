@@ -33,7 +33,7 @@ class Armstrong {
         start=Integer.parseInt(scan.nextLine());
         System.out.print("Enter a End: ");
         end=Integer.parseInt(scan.nextLine());
-        System.out.println("Armstrong Numbres:");
+        System.out.println("Armstrong Numbers:");
         for(;start<=end;start++){
             ArmstrongCalculator acob = new ArmstrongCalculator(start);
             if (acob.isArmstrong){
