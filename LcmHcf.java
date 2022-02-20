@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-//question 3
+//question 9
 public class LcmHcf {
     public static void main(String[] args) {
         int num1, num2, lcm, hcf;
