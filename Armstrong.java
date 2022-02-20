@@ -27,19 +27,19 @@ class ArmstrongCalculator {
 class Armstrong {
     public static void main(String[] args) {
         int start,end;
-        Scanner scan = new Scanner(System.in);
+        Scanner s = new Scanner(System.in);
         System.out.println("Enter Range");
         System.out.print("Enter a Start: ");
-        start=Integer.parseInt(scan.nextLine());
+        start=Integer.parseInt(s.nextLine());
         System.out.print("Enter a End: ");
-        end=Integer.parseInt(scan.nextLine());
+        end=Integer.parseInt(s.nextLine());
         System.out.println("Armstrong Numbers:");
+        s.close();
         for(;start<=end;start++){
             ArmstrongCalculator acob = new ArmstrongCalculator(start);
             if (acob.isArmstrong){
                 System.out.print(start+" ");
             }
         }
-        scan.close();
     }
 }
