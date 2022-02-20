@@ -1,4 +1,4 @@
-//question 2
+//question 15
 class ComplexNumber {
 
     int real, image;
