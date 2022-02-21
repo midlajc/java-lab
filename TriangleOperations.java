@@ -35,7 +35,7 @@ class Triangle {
     }
 
     void calcArea() {
-        int s = (s1 + s2 + s3) / 2;
+        double s = (s1 + s2 + s3) / 2.0;
         this.area = Math.sqrt(s * (s - s1) * (s - s2) * (s - s3));
     }
 

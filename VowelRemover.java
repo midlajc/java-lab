@@ -20,7 +20,7 @@ public class VowelRemover {
                     buffer.append(str[i]);
             }
         }
-        System.out.println(buffer);
+        System.out.println("String with out Vowel letters: " + buffer);
         s.close();
     }
 }
