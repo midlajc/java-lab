@@ -24,9 +24,9 @@ class Anagram {
     public static void main(String args[]) {
         Scanner s = new Scanner(System.in);
         String str1,str2;
-        System.out.print("Enter first String:");
+        System.out.print("Enter First String:");
         str1=s.nextLine();
-        System.out.print("Enter first String:");
+        System.out.print("Enter  Second String:");
         str2=s.nextLine();
 
         if (areAnagram(str1.toCharArray(), str2.toCharArray()))

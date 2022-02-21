@@ -19,7 +19,7 @@ class Sphere implements Volume {
 
     public void displayVolume() {
         double volume = (4.0 / 3.0) * Volume.pie * (radius * radius * radius);
-        System.out.print("Radius of Sphere: " + volume);
+        System.out.print("Volume of Sphere: " + volume);
     }
 }
 

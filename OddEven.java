@@ -11,7 +11,6 @@ class Odd implements Runnable {
 
     public void run() {
         for (int i = 0; i <= limit; i++) {
-            // Thread.sleep(10000);
             if (i % 2 != 0){
                 System.out.println("Odd: " + i);
             }
@@ -44,5 +43,4 @@ public class OddEven {
         even.start();
         s.close();
     }
-
 }
